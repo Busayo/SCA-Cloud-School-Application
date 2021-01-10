@@ -6,7 +6,7 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-ENV TEXT="Welcome to SCA Cloud School Application"
+ENV TEXT="Welcome to SCA Cloud School Application , this is my first assessment"
 
 ENV DEBUG=false
 
