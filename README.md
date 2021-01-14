@@ -2,22 +2,28 @@
 
 Link to my docker hub repository
 
-https://hub.docker.com/r/busayo00/test/tags 
+https://hub.docker.com/repository/docker/busayo00/test 
 
 
-Documentation used for Deployment
+Test the root directory, I ran "docker build --tag test ." to build the image
+
+Then I ran "docker run -p 5000:5000 test:latest" to run the application 
+
+To test my application on my browser, I went to localhost:5000
 
 
-https://docs.docker.com/engine/reference/builder/
 
-https://www.pluralsight.com/guides/create-docker-images-docker-hub
+Instructions 
 
-https://www.exquisappfactory.com/2020/01/31/introduction-to-containers-and-docker/
 
-https://www.geeksforgeeks.org/dockerize-your-flask-app/
+The name of my account on dockerhub is "busayo00" and the repository I created is called "test"
+On my command line, I ran docker login and inputted my credentials to authenticate my docker user on my laptop 
+I ran "docker tag test:latest busayo00/test:latest"
+Then I ran, "docker push busayo00/test:latest" 
 
-https://www.freecodecamp.org/news/a-beginners-guide-to-docker-how-to-create-your-first-docker-application-cc03de9b639f/
+Docker Repository : https://hub.docker.com/repository/docker/busayo00/test
 
-https://geekflare.com/understanding-docker-for-beginner/
+
+
 
 
