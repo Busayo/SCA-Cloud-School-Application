@@ -44,9 +44,11 @@ and then to run it on my local system, I ran "docker run -it busayo00/test:lates
 
 ![4image](https://user-images.githubusercontent.com/17340292/104754265-4f5af900-5759-11eb-95f2-c87c6555e403.jpg)
 
+Then run it on your system as "localhost:5000"
+
+
+
 Docker Repository : https://hub.docker.com/repository/docker/busayo00/test
-
-
 
 
 
